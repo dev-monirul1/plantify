@@ -1,0 +1,24 @@
+/* ===== common css style start ===== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul , ol , menu{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+/* ===== common css style end ===== */
+
+/* ===== navbar css style start ===== */
+/* ===== navbar css style end ===== */
+
+/* ===== banner css style start ===== */
+/* ===== banner css style end ===== */
