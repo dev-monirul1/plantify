@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
 }
 ul , ol , menu{
     list-style-type: none;
@@ -18,6 +19,30 @@ h1,h2,h3,h4,h5,h6,p{
 /* ===== common css style end ===== */
 
 /* ===== navbar css style start ===== */
+#navbar{
+    background-color: #004F44;
+}
+.navbar-nav{
+    gap: 40px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0.3px;
+    color: #fff;
+}
+.nav-item .nav-link i{
+    font-size: 12px;
+}
+.navIcon{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.navIcon i{
+    color: #fff;
+}
 /* ===== navbar css style end ===== */
 
 /* ===== banner css style start ===== */
