@@ -106,7 +106,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .bannerImgBox2{
     position: relative;
-   
 }
 .bannerImgBox2 img{
     position: relative;
@@ -118,16 +117,152 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: -30px;
     z-index: 1;
 }
-/* .bannerImgBox{
-    border: 1px solid white;
-} */
-/* .bannerImgBox img{
-    width: 100%;
-    height: 100%;
-} */
-
 .bannerImgBox2{
     text-align: right;
     /* border: 1px solid white; */
 }
+.ImgText1, .ImgText2, .ImgText3{
+    position: relative;
+}
+.bannerImgheading1, .bannerImgheading2, .bannerImgheading3{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    z-index: 50;
+    opacity: 0;
+    transition: .5s;
+}
+.bannerImgheading1 h5, .bannerImgheading2 h5, .bannerImgheading3 h5{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 7px 15px;
+    background-color: #004F44;
+}
+.bannerimgText{
+    position: absolute;
+    bottom: 30px;
+    left: 26px;
+    z-index: 100;
+    opacity: 0;
+    transition: .5s;
+}
+.Overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(46, 64, 61, 0.103) 32%, rgba(46, 64, 61, 0.900) 99%);
+    opacity: 0;
+    transition: .5s;
+    z-index: 99;
+}
+.bannerimgText h5{
+    color: #EFF7F5;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.bannerimgText p{
+    color: #EFF7F5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 327px;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+.bannerimgText a{
+    color: #004F44;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    padding: 17px 115px;
+    background-color: #fff;
+}
+.ImgText1:hover .bannerImgheading1, .ImgText2:hover .bannerImgheading2, .ImgText3:hover .bannerImgheading3, .ImgText3:hover .bannerimgText
+, .ImgText3:hover .Overlay{
+    opacity: 1;
+}
 /* ===== banner css style end ===== */
+
+/* ===== service css style start ===== */
+#service{
+    margin-top: 100px;
+}
+.serviceContent{
+     background-image: url("../images/serviceimg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ===== service css style end ===== */
+
+/* ===== visit css style start ===== */
+#visit{
+    margin: 130px 0 140px;
+}
+.visitImg{
+    width: 100%;
+    position: relative;
+}
+.visitImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.visitImgBox{
+    position: absolute;
+    width: 515px;
+    padding: 28px;
+    top: 52px;
+    left: 35px;
+    background-color: #fff;
+}
+.direction{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #004F44;
+    width: 200px;
+    height: 46px;
+    padding: 14px 27px 14px 14px;
+}
+.direction h4{
+    color: #EFF7F5;
+    font-size: 14px;
+    font-weight: 400;  
+    letter-spacing: 1.3px;
+}
+.direction h4 i{
+    margin-right: 8px;
+}
+.visitImgBox h5{
+    color: #0A1E1B;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+.visitImgBox p{
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+.visitImgBox h6{
+    color: #0A1E1B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.visitImgBox h6 span{
+    color: #666666;
+}
+
+/* ===== visit css style end ===== */
