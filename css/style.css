@@ -188,6 +188,23 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ===== banner css style end ===== */
 
+/* ===== stand css style start ===== */
+#stand{
+    background-color: #F3FFFC;
+    padding: 80px;
+}
+.standHeading{
+    margin-bottom: 37px;
+}
+.standHeading h3{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: .5px;
+    color: #004F44;
+}
+/* ===== stand css style end ===== */
+
 /* ===== service css style start ===== */
 #service{
     margin-top: 100px;
@@ -197,6 +214,34 @@ h1,h2,h3,h4,h5,h6,p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 58px 0 97px 55px;
+    color: #9C6955;
+}
+.serviceContent h3{
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-bottom: 10px;
+}
+.serviceContent p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-bottom: 62px;
+}
+.serviceContent .serviceContentWrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: 50px;
+}
+.serviceContent .serviceContentWrap span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;   
+}
+.serviceContent .serviceContentWrap span i{
+    margin-right: 13px;
 }
 /* ===== service css style end ===== */
 
